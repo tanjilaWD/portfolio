@@ -31,7 +31,7 @@
 @keyframes blink-caret {
   from, to { border-color: transparent; }
   50% { border-color: #8B5CF6; }
-} */
+} 
 
 
 @keyframes slideDown {
