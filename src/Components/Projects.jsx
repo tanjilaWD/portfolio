@@ -25,7 +25,7 @@ const projects = [
     title: 'Flexibble',
     description: 'Description',
     image:'/image/project3.PNG',
-    tech: ['React.js', 'Tailwind'],
+    tech: ['React', 'Tailwind'],
     github: 'https://github.com/tanjilaWD/Dribble_Clone.git',
     demo: 'https://dribble-clone-two.vercel.app',
   },
