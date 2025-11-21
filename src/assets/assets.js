@@ -78,7 +78,7 @@ export const assets = {
 
 
 
-export const projects = [
+export const project = [
   {
     title: "E-Commerce Platform",
     description: "A full-featured online store with shopping cart, user authentication, and payment processing.",
