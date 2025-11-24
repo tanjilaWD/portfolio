@@ -10,14 +10,14 @@ const Hero = () => {
         transition={{duration:0.6, ease:'easeOut'}}
         viewport={{once:true}}
         id="home"
-        className='min-h-screen flex items-center pt-20 pb-16 bg-gradient-to-r from-[#1a1a1a] via-[#2d2d2d] to-[#1a1a1a] '
+        className='min-h-screen flex items-center pt-20 pb-16 bg-[linear-gradient(to_right,#726b6b2e_1px,transparent_1px),linear-gradient(to_bottom,#726b6b2e_1px,transparent_1px)] bg-[size:20px_20px] '
         >
         <div className='container mx-auto px-6 flex flex-col md:flex-row items-center justify-between'>
             {/* left side content */}
          <div className='md:w-1/2 mb-10 md:mb-0'>
-        <h1 className='text-4xl md:text-6xl font-bold mb-4'>Hi✋ I'm <span className='text-purple-700'>Tanjila khatun</span> </h1>
+        <h1 className='text-4xl md:text-6xl  font-bold mb-4'>Hi I'm <br /> <span className='text-purple-700 text-7xl '>Tanjila khatun</span> </h1>
         <h2 className='text-2xl md:text-4xl font-semibold mb-6 typewriter'>Full Stack Developer</h2>
-        <p className='text-lg text-gray-300 mb-8'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, natus nobis, commodi neque eligendi omnis harum quibusdam facere quae iure nulla cumque. Odit consequuntur nam sunt facilis possimus architecto.</p> 
+        <p className='text-lg text-gray-300 mb-8'>React | Next.js | Node.js | Express.js | MongoDB</p> 
         <div className='flex space-x-4'>
           <a href="#" className='px-6 py-3 bg-purple-600 rounded-lg font-medium hover:bg-purple-700 transition-colors duration-300'>Get Resume</a>
           <a href="#about" className='px-6 py-3 border border-purple-500 rounded-lg font-medium hover:bg-purple-600 transition decoration-purple-300'>About Me</a>  
